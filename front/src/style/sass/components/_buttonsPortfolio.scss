@@ -1,0 +1,19 @@
+.selection{
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+    button{
+        margin: 0 1.5%;
+        background-color: RGBA(100,144,138,0.14);
+        color: #351330;
+        font-size: 1.25em;
+        border: none;
+        padding: 0.5% 1%; 
+        font-family: 'Cormorant Garamond', serif;
+    }
+    button:hover{
+        background-color: #64908A;
+        font-weight: bold;
+    }
+
+}

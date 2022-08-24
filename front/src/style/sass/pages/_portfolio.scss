@@ -1,0 +1,23 @@
+.page1{
+    margin-top: -1%;
+    .portfolio{
+        height: 800px;
+        .opacity_title{
+            display: flex;
+            justify-content: center;
+            font-size: 3.6em;
+            font-weight: bold;
+            opacity: 12%;
+            color: #351330;
+            padding-top: 5%;
+        }
+        .title{
+            display: flex;
+            justify-content: center;
+            font-size: 2.75em;
+            color: #351330;
+            margin-top: -2.5%;
+
+        }
+    }
+}
