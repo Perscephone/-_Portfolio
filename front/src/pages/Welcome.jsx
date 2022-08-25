@@ -7,7 +7,7 @@ const Welcome = () => {
     <div className="site">
       <div className="header">
         <div className="menu">
-          <h1 className="myName" >Maëlys Champeau</h1>
+          <h1 className="my_name">Maëlys Champeau</h1>
           <Navigation/>
         </div>
         <Hi/>
