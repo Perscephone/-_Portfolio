@@ -1,15 +1,13 @@
 import React from "react"
-import flower from "../assets/fleur.png"
-
+import Card from "./Card.jsx"
 
 const Hi = () => {
   return (
-    <div className="hi">
-      <p className="presentation_text">Hi,<br />I am Maëlys<br />
-        <span>Web developer</span>
+    <div className="accueil">
+      <p className="presentation_text">Hello,<br />I am Maëlys<br />
+        <span>a web developer</span>
       </p>
-      <img src={flower} className="flower" alt="flower"/>
-      <div className="back"></div>
+      <Card/>
     </div>
   )
 }

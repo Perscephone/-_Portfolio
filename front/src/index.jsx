@@ -16,12 +16,12 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Welcome />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/specialties" element={<Specialties />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/formations" element={<Formations />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route element={<Welcome />} />
+        <Route element={<Skills />} />
+        <Route element={<Specialties />} />
+        <Route element={<Portfolio />} />
+        <Route element={<Formations />} />
+        <Route element={<Contact />} />
 
         {/* path="*" turn if url don't match with the same above*/}
         <Route path="*" element={<Welcome />} />

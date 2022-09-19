@@ -2,42 +2,36 @@
 .menu{
     display: flex;
     align-items: center;
-    position: sticky;
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    z-index: 99;
+    background-color: #3d7c81;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
     .my_name{
         margin: 1% 2% 1%;
-        color : #351330;
+        color :#e6b798;
         font-size: 1.6em;
+        width: 13%;
     }
     .navigation {
-        margin: 0% 13%;
-        ul{
-            display: flex;
-            list-style-type: none;    
-            margin: -4% 0 0 -32%;
-            font-size: 1.4em;
+        margin: 0% 3%;
+        width: 100%;
             a{
                 text-decoration: none;
-                padding: 3% 12%;
+                margin: 0 2%;
+                color: #e6b798;
+                font-size: 1.2em;
+                font-weight: bold;
+                
             }
-            .purple{
-                background-color: #351330;
-                color: white; 
+            a:hover {
+                font-size: 1.4em;
             }
-            .white{
-                color: #351330;
-            }
-            a:hover{
-                transform: scale(1.25)
-            }
-            .white:hover{
-                background-image: linear-gradient(120deg, #351330,#64908A 100%);
-                background-repeat: no-repeat;
-                background-size: 40% 0.2em;
-                background-position: 50% 70%;
-                transition: background-size 0.25s ease-in;     
-            }
+            
         
-        }
+        
     }
 }
