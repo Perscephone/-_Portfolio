@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio_of_Maelys/static/css/main.5d952ca8.css",
+    "main.css": "/Portfolio_of_Maelys/static/css/main.5fc4e2c9.css",
     "main.js": "/Portfolio_of_Maelys/static/js/main.fe8ecd7b.js",
     "static/media/seo_p4.png": "/Portfolio_of_Maelys/static/media/seo_p4.9e8562fb388bb0b5bac6.png",
     "static/media/api_p5.png": "/Portfolio_of_Maelys/static/media/api_p5.396614f17666253e234a.png",
@@ -11,11 +11,11 @@
     "static/media/kanap_p3.png": "/Portfolio_of_Maelys/static/media/kanap_p3.567392300cf3949913e0.png",
     "static/media/me.jpg": "/Portfolio_of_Maelys/static/media/me.a7e27e9572a37a697e21.jpg",
     "index.html": "/Portfolio_of_Maelys/index.html",
-    "main.5d952ca8.css.map": "/Portfolio_of_Maelys/static/css/main.5d952ca8.css.map",
+    "main.5fc4e2c9.css.map": "/Portfolio_of_Maelys/static/css/main.5fc4e2c9.css.map",
     "main.fe8ecd7b.js.map": "/Portfolio_of_Maelys/static/js/main.fe8ecd7b.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d952ca8.css",
+    "static/css/main.5fc4e2c9.css",
     "static/js/main.fe8ecd7b.js"
   ]
 }
