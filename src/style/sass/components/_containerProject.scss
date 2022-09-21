@@ -1,0 +1,99 @@
+
+.parentContainer{
+    position: relative;
+    width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5% 25% 5% 10%;
+}
+
+.parentContainer .container{
+    position: relative;
+    height: 250px;
+    background: #fff;
+    display: flex;
+    width: 45%;
+    margin: 30px 0;
+}
+
+.parentContainer .container .pictureCard{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #3d7c81;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+.parentContainer .container:hover .pictureCard{
+    width: 250px;
+    height: 250px;
+    left: -15px;
+    top: calc(50% - 125px);
+    transition: 0.5s ease-in-out;
+    background: #2e3538;
+}
+
+.parentContainer .container .pictureCard:before{
+    content: attr(data-text);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-style: 6em;
+    color: rgba(255,255,255,.05);
+    font-weight: 700;
+}
+
+.parentContainer .container .pictureCard .imgProject{
+    max-width: 457px;
+    transition: 0.5s ease-in-out;
+}
+
+.parentContainer .container:hover .pictureCard .imgProject{
+    max-width: 150px;
+}
+
+.parentContainer .container .pictureHover{
+    position: absolute;
+
+    width: calc(79.25% - 95px);
+    height: 100%;
+    margin: 2%; 
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    background-color: #2e3538;
+    right: -14px;
+    top: -13px;
+    
+    .skillsUsed{
+        font-size: 1.35em;
+        margin-top: -3%;
+        color: #e6b798;
+    }
+
+    .infosTitle{
+        margin: 0;
+    }
+
+    .textProject{
+        font-size: 1.3em;
+        margin-top: 2%;
+        color: #e6b798;
+    }
+}
+.whatUsed, .infosTitle{
+    font-size: 1.5em;
+    color: #ec8a69;
+    margin-top: -1%;
+}
+

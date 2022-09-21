@@ -1,0 +1,37 @@
+
+.menu{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    z-index: 99;
+    background-color: #3d7c81;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+    .my_name{
+        margin: 1% 2% 1%;
+        color :#e6b798;
+        font-size: 1.6em;
+        width: 13%;
+    }
+    .navigation {
+        margin: 0% 3%;
+        width: 100%;
+            a{
+                text-decoration: none;
+                margin: 0 2%;
+                color: #e6b798;
+                font-size: 1.2em;
+                font-weight: bold;
+                
+            }
+            a:hover {
+                font-size: 1.4em;
+            }
+            
+        
+        
+    }
+}
