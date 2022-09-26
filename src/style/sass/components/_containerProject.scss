@@ -11,7 +11,6 @@
 .parentContainer .container{
     position: relative;
     height: 250px;
-    background: #fff;
     display: flex;
     width: 45%;
     margin: 30px 0;
@@ -64,16 +63,14 @@
 
 .parentContainer .container .pictureHover{
     position: absolute;
-
     width: calc(79.25% - 95px);
     height: 100%;
     margin: 2%; 
     display: flex;
-    /* flex-wrap: wrap; */
     flex-direction: column;
     background-color: #2e3538;
-    right: -14px;
-    top: -13px;
+    right: -13px;
+    top: -14px;
     
     .skillsUsed{
         font-size: 1.35em;
